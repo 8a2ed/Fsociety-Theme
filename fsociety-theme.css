@@ -1,0 +1,59 @@
+/**
+ * @name FSociety Theme
+ * @author 82d.
+ * @version 1.0.0
+ * @description join https://discord.gg/2PKnvasZYH
+ * @source https://discord.gg/2PKnvasZYH
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+
+:root {
+  --background: url('https://i.imgur.com/mbF22fs.png');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 5px;
+  --popout: url('https://i.imgur.com/oaJZQEK.png');
+  --popoutsize: var(--backgroundsize);
+  --popoutblur: 100px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 96,132,150;
+  --backdrop: rgba(0,0,0,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0.1;
+  --messagetransparency: 0.2;
+  --guildchanneltransparency: 0.3;
+  --chatinputtransparency: 0.1;
+  --memberlisttransparency: 0.3;
+  --font: Roboto;
+  --settingsiconssize: 18px;  
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 200,200,200;
+  --textdark: 160,160,160;
+  --textdarker: 125,125,125;
+  --textdarkest: 90,90,90;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #05ee85;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #ee2a2a;
+  --rs-offline-color: #777a7e;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+}
